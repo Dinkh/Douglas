@@ -6,7 +6,8 @@ html {
   height: 100%;
   width: 100%;
   margin: 0;
-  font-size: 1vw; }
+  font-size: 1vw;
+ overflow-x: hidden;}
   html::-webkit-scrollbar {
     width: 0; }
 
