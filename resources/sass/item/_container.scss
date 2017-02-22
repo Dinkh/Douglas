@@ -1,0 +1,20 @@
+.item-container {
+  display: block;
+  max-width: $full-width;
+  min-height: 100%;
+  margin: 0 auto;
+  background: $color-app;
+}
+
+.item {
+  width: 100%;
+  margin: 1rem;
+  float: left;
+  background-color: scale-color($light-color, $red: 0%, $green: 50%, $blue: 0%);
+  box-shadow: 0 0 12px rgba(0, 0, 0, .8);
+  font-size: 3rem;
+
+  .item-inner {
+    margin: 1em;
+  }
+}

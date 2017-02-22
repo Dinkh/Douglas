@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html manifest="" lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Douglas Test</title>
+
+    <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self' file: content: gap:;
+        font-src 'self' data:;
+        script-src 'self' file: 'unsafe-inline' 'unsafe-eval';
+        style-src 'self' file: 'unsafe-inline';
+        img-src 'self' content: data:;
+        connect-src 'self' file: content:;
+        frame-src file: gap:;
+     ">
+
+    <link rel="stylesheet" type="text/css" href="./resources/css/app.css">
+    <script src="./app/app.js"></script>
+</head>
+<body>
+    <div class="btn-bar">
+        <button class="quick-filter" data-filter-type="yellow">Obst</button>
+        <button class="quick-filter" data-filter-type="green">Gemüse</button>
+        <button class="quick-filter" data-filter-type="red">Fleisch</button>
+    </div>
+    <div class="item-container">
+        <div id="itemList" class="item-container-inner">
+            <!-- here goes the list -->
+        </div>
+    </div>
+</body>
+</html>

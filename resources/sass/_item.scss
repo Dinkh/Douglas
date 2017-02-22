@@ -1,0 +1,49 @@
+@import "item/container";
+@import "item/image";
+@import "item/header";
+@import "item/button";
+
+.item-container.green {
+  .item.green {
+    display: none;
+  }
+}
+
+.item-container.red {
+  .item.red {
+    display: none;
+  }
+}
+
+.item-container.yellow {
+  .item.yellow {
+    display: none;
+  }
+}
+
+/* full screen */
+@media (min-width: $full-width) {
+  html {
+    font-size: .537rem;
+  }
+  .item-container {
+    min-width: $full-width;
+  }
+  .item {
+    width: 46.8rem;
+  }
+}
+
+/* smaller desktop screens */
+@media (min-width: 481px) and (max-width: $full-width) {
+  .item {
+    width: 48rem;
+  }
+}
+
+/* mobile */
+@media (max-width: 480px) {
+  .item {
+    width: 98.1rem;
+  }
+}

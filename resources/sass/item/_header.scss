@@ -1,0 +1,35 @@
+.item-header {
+  position: relative;
+  margin: 0 .25em 1em;
+  font-size: 1.2em;
+
+  .item-header-text {
+    display: inline-block;
+    width: 75%;
+    text-align: left;
+  }
+
+  .item-header-badge {
+    position: absolute;
+    right: 0;
+    max-width: 25%;
+    padding: 0 0.5em;
+    background-color: scale-color($light-color, $red: 0%, $green: 70%, $blue: 0%);
+    font-size: 0.6em;
+    white-space: nowrap;
+    overflow:hidden !important;
+    text-overflow: ellipsis;
+    line-height: 1.8em;
+    border-radius: 0.5em;
+
+    &.green {
+      background-color: scale-color($light-color, $red: 0%, $green: 90%, $blue: 0%);
+    }
+    &.red {
+      background-color: scale-color($light-color, $red: 90%, $green: 0%, $blue: 0%);
+    }
+    &.yellow {
+      background-color: scale-color($light-color, $red: 90%, $green: 90%, $blue: 0%);
+    }
+  }
+}

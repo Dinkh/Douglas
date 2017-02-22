@@ -1,0 +1,28 @@
+.item-button-moreInfo {
+  -webkit-appearance: none;
+
+  position: relative;
+  width: 100%;
+  background: none;
+  border: 0 none;
+  margin-top: 1em;
+  padding-left: 2.5em;
+  color: $text-light-color;
+  text-align: left;
+  line-height: 3em;
+
+  &:focus {
+    outline:0;
+  }
+
+  &:active {
+    background: lighten($base-color, 5%)
+  }
+
+  &:before {
+    content: ">";
+    position:absolute;
+    left: .25em;
+    color: $text-light-color;
+  }
+}

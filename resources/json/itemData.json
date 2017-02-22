@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "name": "Apfel",
+      "type": "Obst",
+      "image": "./resources/images/test.jpg",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna."
+    },
+    {
+      "name": "Aubergine",
+      "type": "Gemüse",
+      "image": "./resources/images/test.jpg",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna."
+    },
+    {
+      "name": "Banane",
+      "type": "Obst",
+      "image": "./resources/images/test.jpg",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna."
+    },
+    {
+      "name": "Brokkoli",
+      "type": "Gemüse",
+      "image": "./resources/images/test.jpg",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna."
+    },
+    {
+      "name": "Huhn",
+      "type": "Fleisch",
+      "image": "./resources/images/test.jpg",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna."
+    },
+    {
+      "name": "Orange",
+      "type": "Obst",
+      "image": "./resources/images/test.jpg",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna."
+    },
+    {
+      "name": "Rind",
+      "type": "Fleisch",
+      "image": "./resources/images/test.jpg",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna."
+    },
+    {
+      "name": "Zucchini",
+      "type": "Gemüse",
+      "image": "./resources/images/test.jpg",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna."
+    }
+  ]
+}
